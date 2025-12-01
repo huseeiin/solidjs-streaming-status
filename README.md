@@ -2,9 +2,9 @@
 
 **nitro 2:**
 
-bun with node: no
-
 bun with bun: yes
+
+bun with node: no
 
 deno with node: no
 
