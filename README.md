@@ -4,16 +4,15 @@
 
 bun with bun: yes
 
+deno with deno: yes
+
 bun with node: no
 
 deno with node: no
 
-deno with deno: yes
-
 node: no
 
 **nitro 3:**
-
 
 bun with node: no
 
@@ -42,6 +41,7 @@ Deno.serve((req) => {
 ```
 
 or `srvx` in node:
+
 ```ts
 import { renderToStream, ssr, ssrHydrationKey } from "solid-js/web";
 import { serve } from "srvx";
@@ -58,6 +58,7 @@ serve({
   },
 });
 ```
+
 it doesn't break.
 
 if i got something wrong, please make a PR to correct me.
