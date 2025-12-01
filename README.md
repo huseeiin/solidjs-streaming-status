@@ -8,7 +8,7 @@ bun with node: no
 
 deno with node: no
 
-deno with deno: no
+deno with deno: yes
 
 node: no
 
